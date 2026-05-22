@@ -12,7 +12,7 @@
       - source_labels: [__param_target]
         target_label: instance
       - target_label: __address__
-        replacement: 13.232.214.2:9115  # The blackbox exporter's real hostname.
+        replacement: 43.205.206.148/:9115  # The blackbox exporter's real hostname.
 
 
 - job_name: node_exporter
