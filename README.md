@@ -276,7 +276,6 @@ Edit `prometheus.yml` to add scrape jobs:
     - targets:
         - http://prometheus.io
         - http://<APP_IP>:3000
-        - https://hotstar.yourdomain.com:443
   relabel_configs:
     - source_labels: [__address__]
       target_label: __param_target
