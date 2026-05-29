@@ -55,7 +55,6 @@ Developer Push → Jenkins CI/CD Pipeline
 | **Code Quality** | SonarQube |
 | **Vulnerability Scanning** | Trivy, OWASP Dependency-Check |
 | **Monitoring** | Prometheus, Grafana, Blackbox Exporter, Node Exporter |
-| **DNS & SSL** | Cloudflare (CNAME + Proxied SSL) |
 | **Notifications** | Gmail SMTP (Email Alerts) |
 | **Cloud Provider** | AWS (EC2, EKS, IAM, VPC) |
 | **Version Control** | GitHub |
